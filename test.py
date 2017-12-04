@@ -7,7 +7,7 @@ bot = telebot.TeleBot(token)
 # message_from_user = last_upd.message
 # print(message_from_user)
 
-#@bot.message_handler(commands=['start', 'help'])
+#@bot.message_handler(commands=['start', 'help'])asda
 #def send_welcome(message):
 #	bot.reply_to(message, "Howdy, how are you doing?")#asda
 
