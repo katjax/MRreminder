@@ -9,7 +9,7 @@ bot = telebot.TeleBot(token)
 
 #@bot.message_handler(commands=['start', 'help'])
 #def send_welcome(message):
-#	bot.reply_to(message, "Howdy, how are you doing?")
+#	bot.reply_to(message, "Howdy, how are you doing?")#asda
 
 @bot.message_handler(commands=['help'])
 def handle_welcome(message):
